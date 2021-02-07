@@ -9,8 +9,6 @@ class ChildTest < ActiveSupport::TestCase
   should validate_presence_of(:last_name)
   # TODO: Context testing
 
-end
-
 context "Creating a child context" do
    setup do
      create_children
@@ -33,4 +31,7 @@ context "Creating a child context" do
    should "have a scope to select only active children" do
      assert_equal ["Alex", "Mark"], Child.active.alphabetical.map{|c| c.first_name}
    end
- end
+end
+
+end
+

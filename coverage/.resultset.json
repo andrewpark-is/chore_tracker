@@ -34,20 +34,19 @@
   },
   "Unit Tests": {
     "coverage": {
-      "/Users/keonwoop/Desktop/refresher/lab5-choretracker-starter/app/models/child.rb": [
+      "/Users/keonwoop/Desktop/refresher/lab5-choretracker-starter/app/models/task.rb": [
+        1,
+        1,
         1,
         null,
         1,
         1,
         null,
+        1,
         1,
         null,
         3,
         2,
-        null,
-        1,
-        3,
-        null,
         null
       ],
       "/Users/keonwoop/Desktop/refresher/lab5-choretracker-starter/app/models/application_record.rb": [
@@ -59,7 +58,19 @@
         1,
         null
       ],
-      "/Users/keonwoop/Desktop/refresher/lab5-choretracker-starter/app/models/task.rb": [
+      "/Users/keonwoop/Desktop/refresher/lab5-choretracker-starter/app/models/child.rb": [
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
         0,
         0
       ],
@@ -315,6 +326,6 @@
         0
       ]
     },
-    "timestamp": 1612670274
+    "timestamp": 1612766911
   }
 }

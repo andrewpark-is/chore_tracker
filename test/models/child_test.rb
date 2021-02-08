@@ -31,6 +31,16 @@ context "Creating a child context" do
    should "have a scope to select only active children" do
      assert_equal ["Alex", "Mark"], Child.active.alphabetical.map{|c| c.first_name}
    end
+
+   should "please test coverage" do
+     create_tasks
+     create_chores
+     assert_equal 4, @alex.points_earned
+     assert_equal 1, @mark.points_earned
+     assert_equal 0, @rachel.points_earned
+     destroy_tasks
+     destroy_chores
+   end
 end
 
 end
